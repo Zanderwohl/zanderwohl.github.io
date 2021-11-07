@@ -23,7 +23,7 @@ email: alexander@zanderlowry.com
 description: >- # this means to ignore newlines until "baseurl:"
   I'm Alexander Lowry, a software developer currently based in the Madison area. I enjoy procedural generation as well as any union of art and code. Here I show off projects I've been working on and organize a thought or two.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://alexanderlowry.co" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://alexanderlowry.co" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  Zanderwohl
 
