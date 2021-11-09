@@ -1,0 +1,45 @@
+---
+layout: post
+title:  "Story Structure 1"
+date:   2021-11-07 22:51:00 -0500
+categories: theatre writing
+---
+You've probably been taught, as I have, that the story structure looks something like this:
+
+![A flat line from exposition to the inciting incident, a rising line along the rising action, an inflection at the peak of climax, and a downward line for the falling action.](/assets/storyi/figure1.jpg)
+
+It makes sense. Some boring stuff happens at the beginning, you get into the action until a Climax somehow happens, then things wind down until the story ends. It's a tried-and-true structure, and every story follows it, if your English teacher is to be believed. But I think the shape of this diagram betrays a fundamental misunderstanding of how a story works.
+
+Where is the problem?
+
+In the words "Falling Action."
+
+It's also known as Denouement (the untying), or Resolution, which are much less problematic terms. But the usage of "Falling Action" at all is puzzling, considering that the definition of Climax is the end of the Action. Again: there is no Action after the Climax. All the conflict has been resolved, and there are no fights left to fight. Sure, characters may busy themselves with different tasks, like cleaning up the loose pieces of the plot, but the protagonist has either gotten what they want or they failed to. They won or they lost. They've achieved their super-objective (their main desire, what they most want) or they haven't, and nothing they do afterwards will change that. If there's still a chance of anything happening, then the climax hasn't happened yet. The story isn't over.
+
+Don't get me wrong. Characters can still do things after the climax, but it's all Movement. It's not Action, because Action serves the super-objective, the getting of things that they want most. It's just motion. It's static. It's not going anywhere.
+
+So maybe the post-Climax portion of our story looks a little more like this:
+
+![A flat line from exposition to the inciting incident, a rising line along the rising action, an inflection at the peak of climax, and a mirroring flat line from the peak that carries the denouement.](/assets/storyi/figure2.jpg)
+
+The symmetrical nature of stories becomes much more evident. Stories are about change, but they're book-ended by a static world. To Bilbo, the Shire is peaceful before he runs off to adventure, but largely unchanging; when he returns it's different, but it seems the changes stick. It won't be the same again. The world changes during the action, but not before or after. The beginning is Exposition, which shows the world as comfortable, happy, and maybe missing something. The end is Denouement, which shows the world as changed, new, scarred, and broken, but with the seedlings of some type of hope. Things have changed, some for the better, some for the worse, but one thing is clear: these changes are irreversible.
+
+Let's look at an example: Moonrise Kingdom (Wes Anderson, 2012). If you're not familiar with it, I'll briefly outline it:
+
+An isolated preteen girl, Suzy Bishop, runs away to meet a boy she met more than a year ago. A boy scout, Sam steals a canoe while at a camp on the island she lives on to navigate the rivers toward Summer's End, the northern point of the island on which her house rests. They hike through the woods while the island's only police officer, Suzy's parents, and the boy scout troop sweep the island to find them. Though captured by the adults, they are broken free by the boy scout troop, eventually gaining the support of the adults when it seems Sam will be taken away from the island by Social Services.
+
+Moonrise Kingdom has certainly tricked many people into thinking it is a romance, thanks to it's dual-protagonist team. As more of a coming-of-age story, it seems we could choose one of the kids as taking a journey, with the other as their helper. Sam may be the first choice for many people. Indeed, given a male and female character, most people will focus on the male. Additionally, multiple characters have complete arcs, which muddies the issue further. The question of a main protagonist could be the subject of a lot of debate. But looking at the composition and structure of the film places Suzy squarely in the protagonist box, in my opinion.
+
+The film begins with a montage, featuring her static home life. Her parents ignore each other, and their children. In each of these tableaus, her younger brothers play, while she listlessly stares out the windows in between reading. The inciting incident belongs to her, when she receives her final letter from Sam, urging her to run away. The fight between the scout troop and Suzy and Sam reaches its resolution when Suzy stabs one of the boys with scissors. The fight resolves little between Sam and his troop, which has gone on the same through most of the film, but fuels a pivotal moment where her parents lose status due to her daughter's violent acts. Suzy becomes even a mother-figure for the boy scout troop at one point. With Suzy as protagonist set out, let's look at how her beginning and ending moments reflect each other; how her action is completed at the end of the film at what that means for her character.
+
+The Denouement re-visits this same home as the Exposition, even re-using the same camera locations as before. Suzy reads again, this time accompanied by her chosen family in the form of Sam, who has snuck into the house. Where before, Suzy's mother shouted up at her with a megaphone, now both parents share this role, unified. We follow the same beats, many of the same motions, and the world is familiar, but something about the motions is distinctly different. Partly, things have changed: her parents, for example. But for the mostly, it's our characters who have changed. Suzy and Sam, with the context and lessons learned from their journey, live their lives differently. The status quo has been destroyed and rebuilt. Many of the pieces remain, re-arranged in an unfamiliar configuration. There's a status quo on both sides of the action, which serves to demonstrate how the action affected the characters.
+
+Wes Anderson practically bashes the audience over the head with symmetry. It is often noted how each frame focuses on symmetrical placement, but the symmetry hardly ends there. Even the music of the opening montage forces the audience to think about the symmetry: it is Leonard Bernstein's Young Person's Guide to the Orchestra, in which a narrator explains how a simple theme changes with different orchestrations and arrangements.
+
+A story is symmetry. It has reflections across many lines. It's something that's not totally obvious, especially given what we're normally told about stories. Thinking of plot and Action like this makes the reflection self-evident, and hopefully helps in the creation of an ending. If the ending is simply a re-arrangement of the beginning, writing an ending becomes a much less daunting task.
+
+And the super-objective? There's no way of knowing what Kara Hayward was using as her super-objective for Suzy during filming, but if we had to guess, it might be "gaining autonomy", "taking charge of her role in her relationships", or similar. So has she achieved this at the climax? It seems so. She grips onto Sam, the one she's most afraid to lose, sure she will jump off the church, in hopes they can escape through the flood. Finally, she lets Sam have some distance, with the understanding she'll be able to keep him around. She gets what she wants in some ways. She's still restricted to her home, but with the help of some adults, is able to take a more active role in her relationships with her family, related and chosen. This is the completion of the action.
+
+And perhaps this is obvious to a number of people, but it wasn't to me from everything I'd been told about story from English teachers.
+
+In Part II, I want to break down the term "Rising Action." I think that one is accurate, although not terribly helpful. What structure lives in that part (most) of a story?
