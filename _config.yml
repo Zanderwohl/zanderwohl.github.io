@@ -28,7 +28,7 @@ url: "http://alexanderlowry.co" # the base hostname & protocol for your site, e.
 github_username:  Zanderwohl
 
 # Build settings
-theme: minima
+theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
 
