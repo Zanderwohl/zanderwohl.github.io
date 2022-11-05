@@ -3,5 +3,6 @@ layout: post
 title:  "Setting Up"
 date:   2021-11-07 17:39:00 -0500
 categories: update
+author: Alexander Lowry
 ---
 I've finally decided to make a real blog that I maintain myself. I've chosen Jekyll because it seems easy enough to maintain while being flexible. I hope I'll be able to update this with projects and other things I'm working on somewhat regularly and use this as a resume site as well.
