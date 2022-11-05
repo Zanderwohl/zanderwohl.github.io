@@ -7,7 +7,7 @@ author: Alexander Lowry
 ---
 You've probably been taught, as I have, that the story structure looks something like this:
 
-![A flat line from exposition to the inciting incident, a rising line along the rising action, an inflection at the peak of climax, and a downward line for the falling action.]({{site.baseurl}}/assets/images/story-structure-1.jpg)
+![A flat line from exposition to the inciting incident, a rising line along the rising action, an inflection at the peak of climax, and a downward line for the falling action.](/assets/images/story-structure-1.jpg)
 
 It makes sense. Some boring stuff happens at the beginning, you get into the action until a Climax somehow happens, then things wind down until the story ends. It's a tried-and-true structure, and every story follows it, if your English teacher is to be believed. But I think the shape of this diagram betrays a fundamental misunderstanding of how a story works.
 
@@ -21,7 +21,7 @@ Don't get me wrong. Characters can still do things after the climax, but it's al
 
 So maybe the post-Climax portion of our story looks a little more like this:
 
-![A flat line from exposition to the inciting incident, a rising line along the rising action, an inflection at the peak of climax, and a mirroring flat line from the peak that carries the denouement.]({{site.baseurl}}/assets/images/story-structure-2.jpg)
+![A flat line from exposition to the inciting incident, a rising line along the rising action, an inflection at the peak of climax, and a mirroring flat line from the peak that carries the denouement.](/assets/images/story-structure-2.jpg)
 
 The symmetrical nature of stories becomes much more evident. Stories are about change, but they're book-ended by a static world. To Bilbo, the Shire is peaceful before he runs off to adventure, but largely unchanging; when he returns it's different, but it seems the changes stick. It won't be the same again. The world changes during the action, but not before or after. The beginning is Exposition, which shows the world as comfortable, happy, and maybe missing something. The end is Denouement, which shows the world as changed, new, scarred, and broken, but with the seedlings of some type of hope. Things have changed, some for the better, some for the worse, but one thing is clear: these changes are irreversible.
 
