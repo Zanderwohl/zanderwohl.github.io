@@ -11,8 +11,8 @@
       label: "September 2025"
     - label: "Present"
   synopsis: >-
-    Creator of internal Ruby on Rails &amp; React internal admin tools, data
-    pipeline debugger, and AI workflow integration implementer.
+    Creator of internal Ruby on Rails &amp; React admin tools, data pipeline
+    debugger, and AI workflow integration implementer.
   duties:
     - "Cross-domain programmer, spanning microservices and Sidekiq jobs to reduce technical debt and debug data pipeline issues."
     - "Executed projects across multiple microservices and repos, unifying essential groundwork for customer projects."
