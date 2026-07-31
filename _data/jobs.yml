@@ -1,0 +1,102 @@
+# Resume experience, newest first.
+#
+# Rendered by _includes/job.html into both the full resume (all entries) and
+# the home page (the first two). Each `dates` entry becomes a <time> when it
+# has a `datetime`; entries are joined with an en dash.
+
+- company: "Seismic"
+  title: "Software Engineer"
+  dates:
+    - datetime: "2025-09"
+      label: "September 2025"
+    - label: "Present"
+  synopsis: >-
+    Creator of internal Ruby on Rails &amp; React internal admin tools, data
+    pipeline debugger, and AI workflow integration implementer.
+  duties:
+    - "Cross-domain programmer, spanning microservices and Sidekiq jobs to reduce technical debt and debug data pipeline issues."
+    - "Executed projects across multiple microservices and repos, unifying essential groundwork for customer projects."
+
+- company: "Thank You, Five!"
+  title: "Software Developer"
+  dates:
+    - datetime: "2025-03"
+      label: "March 2025"
+    - datetime: "2025-08"
+      label: "August 2025"
+  synopsis: >-
+    Project architect and domain expert for theatre stage management software to
+    improve communication between departments.
+  duties:
+    - "Created Ruby on Rails application for domain-specific problems."
+    - "Wrote Axum microservice in Rust to handle tens of thousands of processing requests per second on a single-core processor and 1&nbsp;GB of RAM."
+    - "Designed and wrote core application for business workflows, working on both product and engineering."
+
+- company: "CoinAILyzer"
+  title: "Backend Architect"
+  dates:
+    - datetime: "2025-08"
+      label: "August 2025"
+  duties:
+    - "Designed and built backend service in Python &amp; FastAPI from the ground up to serve Android &amp; iOS apps."
+    - "Worked with UI designer to enumerate and construct all required APIs for concept, without concrete requirements."
+    - "Implemented OAuth and wrote permissions engine to protect user data and handle subscription tiers."
+    - "Added AI tools to enhance functionality."
+
+- company: "Unite Us"
+  title: "Software Developer"
+  dates:
+    - datetime: "2022-03"
+      label: "March 2022"
+    - datetime: "2025-03"
+      label: "March 2025"
+  synopsis: >-
+    Developer for the FHIR Interoperability team enabling seamless data exchange
+    between healthcare and social care organizations, improving patient access
+    to coordinated services.
+  duties:
+    - "Wrote and maintained industry-standard FHIR Interoperability APIs to provide patients with care, matching them with service providers and unifying the patient experience."
+    - "Engineered high-priority import/export pipelines for the largest EHR vendor, ensuring rapid adaptation to changing customer needs within tight turnaround times."
+    - "Designed and developed new microservices with emphasized observability and auditability, enhancing system transparency and reliability."
+    - "Maintained and optimized core patient data by executing complex SQL, cleaning and unifying tens of millions of records to improve provider decision-making and patient care continuity."
+
+- company: "Epic"
+  title: "Software Developer"
+  dates:
+    - datetime: "2020-06"
+      label: "June 2020"
+    - datetime: "2022-02"
+      label: "February 2022"
+  synopsis: >-
+    Developer on the core product team for the largest EHR in the world,
+    migrating functionality and fixing high-severity bugs for complete refresh
+    of the flagship product from VB6 to C#/.Net, used in more than 3,700
+    hospitals.
+  duties:
+    - "Diagnosed and resolved high-severity bugs across multiple product domains, ensuring data synchronization and integrity across millions of patient records."
+    - "Owned and developed full-stack tools and components for product teams across the company, streamlining workflows and collaborating with other developers across the company to discover and refine requirements."
+    - "Led internal support initiatives and duty roster for company-wide technical forums, including directory of topic experts and specialized knowledge, to improve developer efficiency."
+
+- company: "Northwestern College"
+  title: "VR Experience Designer"
+  dates:
+    - datetime: "2019-09/2019-12"
+      label: "Fall 2019"
+  synopsis: >-
+    Developer and designer of virtual reality experiences focused on
+    neurodivergent accessibility.
+  duties:
+    - "Designed and developed an immersive VR experience in concert with a theatre production to simulate sensory overload, helping audience empathize with diverse experiences. Developed in collaboration with the theatre and psychology departments."
+    - "Created and programmed the application for the tight system requirements of the Oculus Go VR headset."
+    - "Led and organized cross-disciplinary teams to create lobby displays and research summaries to provide context to audience members of <cite>The Curious Incident of the Dog in the Night-Time</cite>."
+    - "Recognized with the Virtual Reality Design and Programming Commendation from the Kennedy Center American College Theatre Festival 52 (Region 5) for innovation in storytelling and accessibility."
+    - "Please ask me about this! I love talking about it."
+
+- company: "Interstates"
+  title: "Information Technology Intern"
+  dates:
+    - datetime: "2019-06"
+      label: "June 2019"
+    - datetime: "2020-03"
+      label: "March 2020"
+  synopsis: "IT intern at an industrial automation company."

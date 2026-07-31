@@ -1,0 +1,46 @@
+---
+layout: default
+---
+{%- assign series_posts = site.posts | where: "series", page.series | sort: "part" -%}
+<article class="post">
+  <header class="post-header">
+    {%- if page.series and page.url != series_posts.first.url %}
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="{{ '/' | relative_url }}">Home</a></li>
+          <li><a href="{{ series_posts.first.url | relative_url }}">{{ page.series }}</a></li>
+          <li aria-current="page">{{ page.title }}</li>
+        </ol>
+      </nav>
+    {%- endif %}
+
+    <h1>{{ page.title }}</h1>
+    {%- if page.subtitle %}
+      <p class="subtitle">{{ page.subtitle }}</p>
+    {%- endif %}
+    <p class="post-meta">
+      Published <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+    </p>
+  </header>
+
+  {{ content }}
+
+  {%- if page.series and series_posts.size > 1 %}
+    <footer class="post-footer">
+      <nav class="series-nav" aria-label="{{ page.series }} series">
+        <h2>The {{ page.series }} series</h2>
+        <ol>
+          {%- for entry in series_posts %}
+            <li>
+              {%- if entry.url == page.url %}
+                <strong aria-current="page">{{ entry.title }}</strong>
+              {%- else %}
+                <a href="{{ entry.url | relative_url }}">{{ entry.title }}</a>
+              {%- endif %}
+            </li>
+          {%- endfor %}
+        </ol>
+      </nav>
+    </footer>
+  {%- endif %}
+</article>

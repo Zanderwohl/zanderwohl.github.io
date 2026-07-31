@@ -1,0 +1,87 @@
+---
+layout: default
+title: Resume
+description: >-
+  Alexander Lowry — Senior Software Engineer with 5+ years of experience
+  building well-architected, high-impact systems.
+permalink: /resume/
+---
+<article class="resume" itemscope itemtype="https://schema.org/Person">
+  <header class="page-header">
+    <h1 itemprop="name">Alexander Lowry</h1>
+    <p class="subtitle" itemprop="jobTitle">Software Developer</p>
+
+    <p class="summary" itemprop="description">
+      Senior Software Engineer with 5+&nbsp;years of&nbsp;experience leveraging
+      technical expertise and problem-solving skills to&nbsp;drive and&nbsp;lead
+      technical projects to&nbsp;deliver high-impact, well-architected solutions.
+      A&nbsp;quick learner with high self-motivation and strong cross-functional
+      communication who&nbsp;enjoys unique challenges and&nbsp;rapidly mastering
+      new domains to&nbsp;solve real problems.
+    </p>
+  </header>
+
+  <section class="experience" aria-labelledby="experience">
+    <h2 id="experience">Experience</h2>
+
+    {%- for job in site.data.jobs %}
+      {% include job.html job=job %}
+    {%- endfor %}
+  </section>
+
+  <section class="skills" aria-labelledby="skills">
+    <h2 id="skills">Skills</h2>
+    <ul>
+      <li>Proficient in Typescript, Ruby (Rails), C#, Python, and Go, and experience in React for frontend.</li>
+      <li>Cloud &amp; Infrastructure: AWS with Terraform, DigitalOcean.</li>
+      <li>Authentication with OAuth2.</li>
+      <li>Interoperability &amp; Data: EHR industry-standard FHIR and HL7 exchange, advanced and optimized SQL, HIPAA compliance.</li>
+      <li>Web &amp; UI development: Proficient in HTML, CSS, modern frontend frameworks, with accessibility in mind.</li>
+      <li>Agile development and SCRUM, cross-functional collaboration and user story-centered refinement.</li>
+    </ul>
+  </section>
+
+  <section class="awards" aria-labelledby="awards">
+    <h2 id="awards">Awards</h2>
+    <ul>
+      <li itemprop="award">Virtual Reality Design and Programming Commendation &mdash; Kennedy Center American College Theatre Festival 52 (Region 5)</li>
+      <li itemprop="award">BSA Eagle Scout Award &mdash; Cradle of Liberty, Pennsylvania Troop 2</li>
+      <li itemprop="award">Kennedy Center American College Theatre Festival 51 (Region 5) Certificate of Merit, Stage Management</li>
+      <li itemprop="award">The Good Citizenship Award of the Union League of Philadelphia</li>
+    </ul>
+  </section>
+
+  <section class="education" aria-labelledby="education">
+    <h2 id="education">Education</h2>
+
+    <p itemprop="alumniOf" itemscope itemtype="https://schema.org/CollegeOrUniversity">
+      <span itemprop="name">Northwestern College</span>, Class of
+      <time datetime="2020">2020</time>
+    </p>
+
+    <ul>
+      <li>Honors Program</li>
+      <li>Norman Vincent Peele Scholarship</li>
+      <li>Paul Roth Math Scholarship</li>
+      <li>Computer Science BA</li>
+      <li>3.83 Cumulative GPA</li>
+      <li>
+        Liberal Arts Education
+        <ul>
+          <li>12 Credits of German</li>
+          <li>6 Credits of Linguistics</li>
+          <li>8 Semesters of Theatre classes</li>
+        </ul>
+      </li>
+      <li>
+        Technical Theatre
+        <ul>
+          <li>Assistant Stage Manager: <cite>Dancing at Lughnasa</cite></li>
+          <li>Stage Manager: <cite>Junie B. Jones is Not a Crook</cite></li>
+          <li>Stage Manager: <cite>Next to Normal</cite></li>
+          <li>Stage Manager: <cite>Bright Star</cite></li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+</article>

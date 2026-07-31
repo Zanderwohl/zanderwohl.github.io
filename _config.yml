@@ -1,0 +1,36 @@
+title: Alexander Lowry
+tagline: Programmer
+description: >-
+  Software engineer. Notes on code, models and miniatures, and things worth
+  memorizing.
+author: Alexander Lowry
+url: "https://zanderwohl.github.io"
+baseurl: ""
+lang: en
+
+permalink: /posts/:title/
+
+markdown: kramdown
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-feed
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: "misc"
+    values:
+      layout: page
+      section: Misc
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

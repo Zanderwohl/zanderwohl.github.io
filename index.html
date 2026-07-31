@@ -1,0 +1,62 @@
+---
+layout: default
+title: null
+description: >-
+  Alexander Lowry — software developer and maker. Resume, model-making writeups,
+  and a couple of poems.
+---
+{%- assign drinkrig = site.posts | where: "series", "Drinkrig" | sort: "part" -%}
+<article class="home" itemscope itemtype="https://schema.org/Person">
+  <header class="page-header">
+    <h1 itemprop="name">Alexander Lowry</h1>
+    <p class="subtitle" itemprop="jobTitle">Software developer, maker</p>
+  </header>
+
+  <section class="resume" aria-labelledby="work">
+    <h2 id="work">Work</h2>
+
+    {%- for job in site.data.jobs limit: 2 %}
+      {% include job.html job=job %}
+    {%- endfor %}
+
+    <p><a href="{{ '/resume/' | relative_url }}">Full resume</a></p>
+  </section>
+
+  <section aria-labelledby="models">
+    <h2 id="models">Models and Miniatures</h2>
+    <p class="subtitle">3D printing, painting, and lighting</p>
+
+    <ul>
+      {%- for post in drinkrig %}
+        {%- if post.part == 0 %}
+          <li>
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            <ul>
+              {%- for entry in drinkrig %}
+                {%- unless entry.part == 0 %}
+                  <li><a href="{{ entry.url | relative_url }}">{{ entry.title }}</a></li>
+                {%- endunless %}
+              {%- endfor %}
+            </ul>
+          </li>
+        {%- endif %}
+      {%- endfor %}
+    </ul>
+  </section>
+
+  <section aria-labelledby="play">
+    <h2 id="play">Digital Art and Play</h2>
+    <ul>
+      <li><a href="{{ '/misc/falling-sand/' | relative_url }}">Falling Sand clone</a></li>
+      <li><a href="{{ '/misc/lunar-lander/' | relative_url }}">Lunar Lander clone</a></li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="misc">
+    <h2 id="misc">Misc</h2>
+    <ul>
+      <li><a href="{{ '/misc/sonnet-115/' | relative_url }}">Sonnet 115</a></li>
+      <li><a href="{{ '/misc/the-bait/' | relative_url }}">The Bait</a></li>
+    </ul>
+  </section>
+</article>

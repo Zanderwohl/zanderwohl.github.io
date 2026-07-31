@@ -1,0 +1,36 @@
+{%- comment -%}
+One resume entry. Expects `job` — an item from _data/jobs.yml.
+Used by resume.html (all entries) and index.html (the first two).
+{%- endcomment -%}
+<article class="job" itemprop="hasOccupation" itemscope itemtype="https://schema.org/EmployeeRole">
+  <header>
+    <h3 itemprop="worksFor" itemscope itemtype="https://schema.org/Organization">
+      <span itemprop="name">{{ include.job.company }}</span>
+    </h3>
+    <p class="job-meta">
+      <span class="job-title" itemprop="roleName">{{ include.job.title }}</span>
+      <span class="job-dates">
+        {%- for span in include.job.dates -%}
+          {%- unless forloop.first %}&ndash;{% endunless -%}
+          {%- if span.datetime -%}
+            <time datetime="{{ span.datetime }}">{{ span.label }}</time>
+          {%- else -%}
+            {{ span.label }}
+          {%- endif -%}
+        {%- endfor -%}
+      </span>
+    </p>
+  </header>
+
+  {%- if include.job.synopsis %}
+    <p class="synopsis">{{ include.job.synopsis }}</p>
+  {%- endif %}
+
+  {%- if include.job.duties %}
+    <ul>
+      {%- for duty in include.job.duties %}
+        <li>{{ duty }}</li>
+      {%- endfor %}
+    </ul>
+  {%- endif %}
+</article>

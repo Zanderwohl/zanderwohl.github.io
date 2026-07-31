@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>
+      {%- if page.title -%}
+        {{ page.title }} &middot; {{ site.title }}
+      {%- else -%}
+        {{ site.title }} &middot; {{ site.tagline }}
+      {%- endif -%}
+    </title>
+
+    <meta name="author" content="{{ site.author }}">
+    <meta name="description" content="{{ page.description | default: site.description | strip_newlines }}">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    {%- feed_meta %}
+  </head>
+
+  <body>
+    <header class="site-header">
+      <p class="site-title">
+        <a href="{{ '/' | relative_url }}" rel="home">{{ site.title }}</a>
+        <span aria-hidden="true">|</span>
+        <span class="site-tagline">{{ site.tagline }}</span>
+      </p>
+
+      <nav class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="{{ '/' | relative_url }}">Home</a></li>
+          <li><a href="{{ '/resume/' | relative_url }}">Resume</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        <small>
+          &copy; <time datetime="{{ site.time | date: '%Y' }}">{{ site.time | date: '%Y' }}</time>
+          {{ site.author }}.
+          <a href="{{ '/feed.xml' | relative_url }}">Feed</a>
+        </small>
+      </p>
+    </footer>
+  </body>
+</html>
