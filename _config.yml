@@ -4,9 +4,14 @@ description: >-
   Software engineer. Notes on code, models and miniatures, and things worth
   memorizing.
 author: Alexander Lowry
-url: "https://zanderwohl.github.io"
-baseurl: ""
 lang: en
+
+# GitHub Pages. The repo is Zanderwohl/zanderwohl.github.io — a user site, so it
+# is served from the root of the domain and baseurl must stay empty. A project
+# repo (any other name) would need baseurl: "/repo-name".
+domain: zanderwohl.github.io       # bare hostname, no protocol
+url: "https://zanderwohl.github.io"  # base hostname and protocol
+baseurl: ""                          # empty: site lives at the domain root
 
 permalink: /posts/:title/
 
