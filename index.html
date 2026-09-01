@@ -6,6 +6,10 @@ description: >-
   and a couple of poems.
 ---
 {%- assign drinkrig = site.posts | where: "series", "Drinkrig" | sort: "part" -%}
+{%- comment -%}
+  Posts that aren't part of the Drinkrig series, which has its own section below.
+{%- endcomment -%}
+{%- assign writing = site.posts | where_exp: "post", "post.series != 'Drinkrig'" -%}
 <article class="home" itemscope itemtype="https://schema.org/Person">
   <header class="page-header">
     <h1 itemprop="name">Alexander Lowry</h1>
@@ -21,6 +25,22 @@ description: >-
 
     <p><a href="{{ '/resume/' | relative_url }}">Full resume</a></p>
   </section>
+
+  {%- if writing.size > 0 %}
+    <section class="posts" aria-labelledby="posts">
+      <h2 id="posts">Posts</h2>
+
+      {%- for post in writing limit: 3 %}
+        <article class="post-excerpt">
+          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+          <p class="post-meta">
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+          </p>
+          <p>{{ post.description | default: post.excerpt | strip_html | normalize_whitespace | truncatewords: 45 }}</p>
+        </article>
+      {%- endfor %}
+    </section>
+  {%- endif %}
 
   <section aria-labelledby="models">
     <h2 id="models">Models and Miniatures</h2>
